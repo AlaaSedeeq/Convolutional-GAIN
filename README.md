@@ -5,8 +5,8 @@
 <li>Paper Link: (<a href="https://arxiv.org/abs/2111.02823">Paper</a>)</li>
 <li>Contact: Sedeeq.alaa@gmail.com</li>
 
-<h4 align="center">Conv-GAIN architecture</h4>
+<h4>Conv-GAIN architecture</h4>
 <img src='Conv_GAIN.png'></img>
 
-<h4 align="center">The Proposed Conv-GAIN architecture</h4>
+<h4>The Proposed Conv-GAIN architecture</h4>
 <img src="Conv_GAIN_layers.png" align="left"></img>
