@@ -1,3 +1,10 @@
+#import the needed libraries
+import numpy as np
+from tqdm import tqdm 
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+
 def Conv_GAIN(miss_data_x, conv_gain_parameters):
     '''
     Impute missing values in data
