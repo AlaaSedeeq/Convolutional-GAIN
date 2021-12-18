@@ -6,7 +6,7 @@ The objective of this project is to Implement the the Conv-GAIN paper.<br><br>
 <li>Contact: Sedeeq.alaa@gmail.com</li><br>
 <li>You can also see: <a href="https://github.com/jsyoon0823/GAIN">Codebase for "Generative Adversarial Imputation Networks (GAIN)"</a></li><br>
 <h4>Conv-GAIN architecture</h4>
-<img src='Conv_GAIN.png'></img>
+<img src='Model.png'></img>
 
 <h4>The Proposed Conv-GAIN model</h4>
-<img src="Conv_GAIN_layers.png" align="left"></img>
+<img src="Layers.png" align="left"></img>
