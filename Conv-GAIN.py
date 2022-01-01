@@ -34,8 +34,9 @@ def Conv_GAIN(miss_data_x, conv_gain_parameters):
 
     # Other parameters
     no, rows, cols, _ = miss_data_x.shape
-    g_last_w = int(np.ceil(rows/4)*np.ceil(3*cols/4)*64)
-    d_last_w = int(np.ceil(rows/4)*np.ceil(2*cols/4)*64)    
+    # Two conv-Layers with strides=2 downsampling tthe input.
+    g_last_w = int(np.ceil(rows/4)*np.ceil(3*cols/4)*64) # The generator's input's width is 3 times the original image's width. (X, Z, M)
+    d_last_w = int(np.ceil(rows/4)*np.ceil(2*cols/4)*64) # The generator's input's width is 3 times the original image's width. (Hat_X, H)
     
     # Hidden state dimensions
     h_dim = (rows, cols, 1)
