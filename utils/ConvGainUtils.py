@@ -1,6 +1,5 @@
 # Necessary packages
 import numpy as np
-from keras.datasets import mnist
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 import matplotlib.pyplot as  plt
