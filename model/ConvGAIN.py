@@ -231,7 +231,7 @@ def Conv_GAIN(miss_data_x, conv_gain_parameters):
     # Renormalization
     imputed_data = ConvGainUtils.renormalization(imputed_data, norm_parameters)  
     # Rounding
-    imputed_data = ConvGainUtils.rounding(imputed_data, data_x)
+    imputed_data = ConvGainUtils.rounding(imputed_data, miss_data_x)
     
 #     # Save Model
 #     saver = tf.train.Saver() 
